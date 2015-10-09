@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+    
+<html>
+    <head>
+        <title>Tower Defense HTML5</title>
+        <link rel="stylesheet" type="text/css" href="css/app.css" />
+        
+        <script type="text/javascript" src="js/lib/kinetic-v3.9.4.min.js"></script>
+        <script type="text/javascript" src="js/lib/CurveAnimator.js"></script>
+        
+        <script type="text/javascript" src="js/bin/tile.js"></script>
+        <script type="text/javascript" src="js/bin/sprite.js"></script>
+        <script type="text/javascript" src="js/bin/land.js"></script>
+        <script type="text/javascript" src="js/bin/building.js"></script>
+        <script type="text/javascript" src="js/bin/shoot.js"></script>
+        <script type="text/javascript" src="js/bin/unit.js"></script>
+        <script type="text/javascript" src="js/bin/map.js"></script>
+        <script type="text/javascript" src="js/bin/factory.js"></script>
+        <script type="text/javascript" src="js/bin/draw.js"></script>
+        <script type="text/javascript" src="js/bin/xmlConfigs.js"></script>
+        <script type="text/javascript" src="js/bin/loading.js"></script>
+        <script type="text/javascript" src="js/bin/menu.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+    </head>
+
+    <body>
+        <h1>Tower Defense - HTML5</h1>
+        
+        <div id="borda">
+            <div id="barraPrincipal">
+                <ul>
+                    <li><p id="gold">Gold: </p></li>
+                    <li><p id="time">Time: </p></li>
+                </ul>
+            </div>
+            <div id="localDesenho">
+                <div id="canvas" style="cursor: url(cursores/ponteiro.cur), none;"></div>
+            </div>
+            <div id="menuJogo">
+                <div id="informacoes"></div>
+                <div id="construcoes">
+                    <h4>Construções</h4>
+                    <ul>
+                        <li><a id="archerMenu"></a></li>
+                        <li><a id="mageMenu"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

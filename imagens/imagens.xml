@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<imagens>
+    <torres tipo="1">
+        <sprite>
+            <caminho>imagens//towers//archer//archer.png</caminho>
+        </sprite>
+        <sprite>
+            <caminho>imagens//towers//mage//mage.png</caminho>
+        </sprite>
+    </torres>
+    
+    <unidades tipo="2">
+        <sprite>
+            <caminho>imagens//map//soldier1_baixo.png</caminho>
+            <caminho>imagens//map//soldier1_esquerda.png</caminho>
+            <caminho>imagens//map//soldier1_cima.png</caminho>
+            <caminho>imagens//map//soldier1_direita.png</caminho>
+        </sprite>
+        
+        <sprite>
+            <caminho>imagens//map//soldier2_baixo.png</caminho>
+            <caminho>imagens//map//soldier2_esquerda.png</caminho>
+            <caminho>imagens//map//soldier2_cima.png</caminho>
+            <caminho>imagens//map//soldier2_direita.png</caminho>
+        </sprite>
+    </unidades>
+    
+    <tiros tipo="3">
+        <sprite>
+            <caminho>imagens//towers//arrow1.png</caminho>
+        </sprite>
+        <sprite>
+            <caminho>imagens//towers//arrow2.png</caminho>
+        </sprite>
+    </tiros>
+    
+    <mapa tipo="4">
+        <sprite>
+            <caminho>imagens//map//chaoTerra.png</caminho>
+        </sprite>
+        <sprite>
+            <caminho>imagens//map//chaoGrama.png</caminho>
+        </sprite>
+    </mapa>
+</imagens>

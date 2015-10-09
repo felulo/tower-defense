@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <unidades>
+        <unidade tipo="1">
+            <nome>Soldado 1</nome>
+            
+            <vida>100</vida>
+            <armadura>5</armadura>
+            
+            <custo_morte>20</custo_morte>
+            
+            <sprite>0</sprite>
+        </unidade>
+        <unidade tipo="2">
+            <nome>Soldado 2</nome>
+            
+            <vida>200</vida>
+            <armadura>10</armadura>
+            
+            <custo_morte>50</custo_morte>
+            
+            <sprite>1</sprite>
+        </unidade>
+    </unidades>
+    <torres>
+        <torre tipo="1">
+            <nome>Arqueiro</nome>
+            
+            <dano>18</dano>
+            <alcance>2</alcance>
+            <velocidade>2</velocidade>
+            <quantidade_tiros>3</quantidade_tiros>
+            
+            <custo_compra>70</custo_compra>
+            <custo_venda>45</custo_venda>
+            
+            <sprite_tiro>0</sprite_tiro>
+            <sprite>0</sprite>
+        </torre>
+        <torre tipo="2">
+            <nome>Mago</nome>
+            
+            <dano>25</dano>
+            <alcance>2</alcance>
+            <velocidade>1</velocidade>
+            <quantidade_tiros>1</quantidade_tiros>
+            
+            <custo_compra>100</custo_compra>
+            <custo_venda>50</custo_venda>
+            
+            <sprite_tiro>1</sprite_tiro>
+            <sprite>1</sprite>
+        </torre>
+    </torres>
+    <mapa>
+        <tile tipo="1">
+            <pode_andar>1</pode_andar>
+            
+            <sprite>0</sprite>
+        </tile>
+        <tile tipo="2">
+            <pode_andar>0</pode_andar>
+            
+            <sprite>1</sprite>
+        </tile>
+    </mapa>
+</config>

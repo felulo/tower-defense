@@ -1,0 +1,243 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+   
+    vertical-align: middle;
+    
+    font-family: "Tahoma";
+    font-size: 12px;
+    font-weight: normal;
+    
+    text-decoration: none;
+    list-style: none; 
+}
+
+body {
+    width: 800px;
+    height: 600px;
+    
+    text-align: center;
+    
+    margin: 0px auto;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    
+    padding: 10px;
+}
+
+#borda #localDesenho {
+    text-align: left;
+}
+
+div#esquerda {
+    float: left;
+    width: 80px;
+    
+    padding: 5px;
+    
+    border-right: 1px solid #ffffff;
+}
+
+div#direita {
+    width: 90px;
+    
+    float:right;
+}
+
+div#conteudo {
+    width: 288px;
+    margin-left: 90px;
+    margin-right: 90px;
+    
+    padding: 5px 0px 0px 10px;
+}
+
+#borda {
+    padding: 15px;
+    
+    width: 770px;
+    height: 570px;
+    
+    background-color: #000000;
+    
+    border-radius: 10px;
+}
+
+#barraPrincipal {
+    width: 766px;
+    height: 20px;
+    
+    border: solid #FFFFFF 2px;
+    border-radius: 10px;
+}
+
+#barraPrincipal ul {
+    display: block;
+    float: left;
+    
+    width: 766px;
+    height: 18px;
+}
+
+#barraPrincipal ul li {
+    display: block;
+}
+
+#barraPrincipal ul li p {
+    float: left;
+    color: #FFFFFF;
+    
+    text-align: left;
+    padding: 2px 0 0 23px;
+    
+    width: 150px;
+    height: 18px;
+}
+
+#barraPrincipal ul li p#gold {
+    background: url(../imagens/game/gold.png) 3px 1px no-repeat;
+}
+
+#barraPrincipal ul li p#time {
+    background: url(../imagens/game/time.png) 3px 1px no-repeat;
+}
+
+#localDesenho {
+    margin: 0px 0px 0px 0px;
+    
+    padding: 10px;
+    
+    border-radius: 10px;
+    border: solid #FFFFFF 2px;
+}
+
+#menuJogo {
+    width: 766px;
+    height: 100px;
+    
+    background-image: url(../imagens/game/fundoMenu.png);
+    background-repeat: repeat-x;
+    background-position: left;
+    
+    border: solid #FFFFFF 2px;
+    border-radius: 10px;
+}
+
+#menuJogo #informacoes {
+    width: 478px;
+    float: left;
+}
+
+#menuJogo #informacoes div {
+    margin-top: 5px;
+}
+
+#menuJogo #informacoes div p, #menuJogo #informacoes div h4, #menuJogo #informacoes div a {
+    color: #FFFFFF;
+}
+
+#menuJogo #informacoes div#conteudo p, #menuJogo #informacoes div#conteudo h4 {
+    text-align: left;
+}
+
+#menuJogo #informacoes div h4 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#menuJogo #informacoes div a#play, #menuJogo #informacoes div a#sell {
+    display: block;
+    
+    text-align: left;
+    font-size: 20px;
+    
+    color: #000000;
+    
+    padding: 3px 0 0 10px;
+    
+    cursor: pointer;
+    
+    width: 70px;
+    height: 30px;
+}
+
+#menuJogo #informacoes div a#play {
+    background-image: url(../imagens/game/play.png);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    
+    margin: 30px 0px 0px 200px;
+}
+
+#menuJogo #informacoes div a#sell {
+    background-image: url(../imagens/game/sell.png);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    
+    margin-top: 30px;
+}
+
+#menuJogo #informacoes div a#play:hover, #menuJogo #informacoes div a#sell:hover {
+    background-position: 0px -32px;
+}
+
+#menuJogo #informacoes div a#play:active, #menuJogo #informacoes div a#sell:active {
+    background-position: 0px -64px;
+}
+
+#menuJogo #construcoes {
+    float: right;
+    
+    width: 288px;
+    height: 100px;
+}
+
+#menuJogo #construcoes h4 {
+    height: 100px;
+    width: 20px;
+    
+    float: left;
+    overflow: hidden;
+    text-indent: -999em;
+    
+    background-image: url(../imagens/game/labelConstrucoes.png);
+    background-repeat: no-repeat;
+}
+
+#menuJogo #construcoes ul {
+    width: 268px;
+    height: 100px;
+    
+    margin-left: 20px;
+}
+
+#menuJogo #construcoes ul li a#archerMenu {
+    display: block;
+    
+    width: 50px;
+    height: 50px;
+    
+    background-image: url(../imagens/game/archerMenu.png);
+    background-repeat: no-repeat;
+    
+    border-bottom: 2px solid #FFFFFF;
+    border-left: 2px solid #FFFFFF;
+    border-right: 2px solid #FFFFFF;
+}
+
+#menuJogo #construcoes ul li a#mageMenu {
+    display: block;
+    
+    width: 50px;
+    height: 50px;
+    
+    background-image: url(../imagens/game/mageMenu.png);
+    background-repeat: no-repeat;
+    
+    border-left: 2px solid #FFFFFF;
+    border-right: 2px solid #FFFFFF;
+}
